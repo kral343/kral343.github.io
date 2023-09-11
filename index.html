@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Mustafa Kral - Kişisel Web Sitesi</title>
     <style>
-        
         header {
             background-color: #333;
             color: #fff;
@@ -20,11 +19,25 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hafif gölge */
         }
         body {
-        background-image: url('arkafon.jpg'); /* Arkaplan görüntüsü */
-        background-size: cover; /* Görüntüyü pencereye sığdır */
-        background-repeat: no-repeat; /* Tekrar etme */
-        background-attachment: fixed; /* Sabit arka plan */
-    }
+            background-image: url('arkafon.jpg'); /* Arkaplan görüntüsü */
+            background-size: cover; /* Görüntüyü pencereye sığdır */
+            background-repeat: no-repeat; /* Tekrar etme */
+            background-attachment: fixed; /* Sabit arka plan */
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
     </style>
 </head>
 <body>
@@ -37,15 +50,17 @@
         <p>Merhaba, ben Mustafa Kral. Gamerlık konusunda tutkulu biriyim ve bu websitesi, oyunlar ve oyun dünyası hakkında paylaşımlarıma ev sahipliği yapacak.</p>
         <h2>YouTube Kanalım</h2>
         <p>Beni YouTube'da takip etmek için <a href="https://www.youtube.com/channel/UCUL_bNJH3MN5maZtG7MEppw">buraya tıklayın</a>.</p>
-<h2>Oynadığım Oyunlar</h2>
-<ul>
-    <li>Minecraft</li>
-    <li>Mount & Blade II: Bannerlord</li>
-    <li>Fnaf 2(Five Nights at Freddy's 2)</li>
+        <h2>Oynadığım Oyunlar</h2>
+        <ul>
+            <li>Minecraft</li>
+            <li>Mount & Blade II: Bannerlord</li>
+            <li>Fnaf 2 (Five Nights at Freddy's 2)</li>
+        </ul>
+        <h2>Tanıtım Videom</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WdHgC6Fpq-Q" frameborder="0" allowfullscreen></iframe>
+        </div>
 
-</ul>
-    
-</div>
-
-</  >
+    </div>
+</body>
 </html>
