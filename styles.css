@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    max-width: 70%;
+    margin: 0 auto; /* Center the list horizontally */
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 20px; /* Add some spacing between list items */
+    text-align: justify; /* Align text at the end of lines */
+}
+
+header {
+    background-color: #a91b1b;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.02em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Add this to your existing style.css or create a new one for gallery styles */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 24%; /* Adjust this value based on your design */
+    margin-bottom: 100px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
